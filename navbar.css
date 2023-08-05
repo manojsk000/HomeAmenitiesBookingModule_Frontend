@@ -1,0 +1,100 @@
+.BackgroundImage{
+    background-image: url(./images/pexels-aleksandar-pasaric-325185.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+.navbar_background{
+    background-color: white;
+    padding: .6rem 0;
+    font-family: serif;
+}
+.navbar_flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.navleft img{
+    margin-left: 2rem;
+}
+
+.flex_nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.flex_phone{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 1rem;
+    color: #F8E71C;
+    text-shadow: 1px 1px 1px black;
+}
+
+.flex_phone img{
+    filter: drop-shadow(0px 0px 2px rgb(128, 109, 0));
+}
+
+p.nav{
+    margin-right: 1rem;
+    color: #242626;
+    font-size: 1rem;
+    font-weight: 500;
+    text-shadow: 0px 0px 1px gray;
+}
+
+button.Booking_facility{
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    background-color: #5aa9fd;
+    color: #242626;
+    font-weight: 600;
+    border: none;
+    text-shadow: 0px 0px 1px white;
+    border-radius: 1rem;
+}
+
+.caption{
+    display: grid;
+    place-items:  center;
+    transform: translateY(200px);
+}
+
+.caption .heading p{
+    font-size: 60px;
+    font-weight: 700;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    text-shadow: 1px 0px 1px black;
+    text-align: center;
+}
+
+.caption .paragraph p{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    text-shadow: 1px 1px 1px black;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.caption .paragraph p span.paragraphColor{
+    color: #F8E71C;
+}
+
+.FacilityBookingModule{
+    /* to display the block over the text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
